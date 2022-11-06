@@ -16,7 +16,7 @@ const DateSlider = ({ earth_date, onDateChanged }) => {
                 <div className="col-12" style={{
                     textAlign: "center" }}>
                     <label htmlFor="date">Earth Day</label>
-                    <p className="Dateslider-date">{earth_date}</p>
+                    <p className="Dateslider-date" data-testid="date-label">{earth_date}</p>
                 </div>
             </div>
             <div className="row">
